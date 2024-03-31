@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Eczar&family=Noto+Serif+Balinese&family=Ysabeau:wght@100;200&display=swap');
+.modalBody{
+    display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      position: relative;
+      padding-top: 30px;
+      
+}
+.modalImage {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .modalImage img {
+    width:350px;
+    height:270px;
+  }
+
+  .modalForm{
+    flex: 1;
+    padding: 40px;
+    background-color: #30b3bd;
+    border-radius: 5px;
+    height:auto;
+  }
+
+  .modalForm input[type="text"],
+  .modalForm input[type="email"],
+  .modalForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  .modalForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .modalForm button:hover {
+    background-color: #45a049;
+  }
+  .Car_details{
+    font-family: 'Ysabeau', sans-serif;
+     
+     text-align: justify;
+     padding-left: 140px;
+     line-height: 1.75rem;
+     color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight:900;
+  }
+  .Car_details span{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight:900;
+  }
+  .Car_details .pricecar{
+    color:#eb0000;
+    font-size: 30px;
+    font-weight:900;
+  }
